@@ -22,8 +22,8 @@ const Routes = () => {
         {/* Define your route here */}
         <Route path="/" element={<Login/>} />
        <Route path="/login" element={<Login />} />
-        <Route path="/transaction-history" element={<TransactionHistory />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/transaction-history" element={<TransactionHistory />} />
         <Route path="/bill-payment" element={<BillPayment />} />
         <Route path="/account-details" element={<AccountDetailsPage />} />
         <Route path="/transfer-money" element={<TransferMoney />} />
