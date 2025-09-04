@@ -106,7 +106,7 @@ const Dashboard = () => {
   return (
     <>
       <Helmet>
-        <title>Tableau de bord - BankApp Pro</title>
+        <title>Tableau de bord - BankApp Af</title>
         <meta name="description" content="Gérez vos comptes et finances en toute sécurité avec BankApp Pro" />
       </Helmet>
       <div className="min-h-screen bg-background">

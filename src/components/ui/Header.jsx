@@ -67,7 +67,7 @@ const Header = () => {
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                 <Icon name="Banknote" size={20} color="white" />
               </div>
-              <span className="text-xl font-semibold text-foreground">BankApp Pro</span>
+              <span className="text-xl font-semibold text-foreground">BankApp Af</span>
             </div>
           </div>
 
