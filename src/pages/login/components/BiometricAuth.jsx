@@ -170,7 +170,7 @@ const BiometricAuth = ({ onSuccess, onError }) => {
           onClick={handleBiometricAuth}
           loading={isAuthenticating || isRegistering}
           disabled={isAuthenticating || isRegistering}
-          className="w-full h-16 flex-col space-y-2"
+          className="w-full h-16 flex-col space-2"
         >
           <div className="flex items-center justify-center">
             <div
