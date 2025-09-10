@@ -99,7 +99,7 @@ const BudgetTracking = () => {
   return (
     <>
       <Helmet>
-        <title>Suivi des budgets - BankApp Pro</title>
+        <title>Suivi des budgets - BankApp Af</title>
         <meta
           name="description"
           content="Gérez et suivez vos budgets par catégorie pour un meilleur contrôle financier"
