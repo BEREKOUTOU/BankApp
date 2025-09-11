@@ -20,3 +20,8 @@
 - [ ] Test that authenticated users can access protected routes
 - [ ] Confirm no authentication bypass is possible
 - [ ] Test that unauthenticated users cannot access protected routes
+
+# TODO: Fix 404 Issue in BankApp
+
+- [x] Edit src/Routes.jsx to add basename="/BankApp/" to BrowserRouter
+- [ ] Verify the routing works correctly
