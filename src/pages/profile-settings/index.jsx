@@ -19,16 +19,7 @@ const ProfileSettings = () => {
   const fileInputRef = useRef(null);
   const navigate = useNavigate();
 
-  useEffect(
-    (effect) => {
-      // Check if user is authenticated
-      const isAuthenticated = localStorage.getItem("isAuthenticated");
-      if (isAuthenticated !== "true") {
-        navigate("/login");
-      }
-    },
-    [navigate]
-  );
+  useEffect(() => {}, []);
   const [userProfile, setUserProfile] = useState({
     firstName: "Boniface",
     lastName: "Berekoutou",

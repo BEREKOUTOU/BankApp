@@ -69,10 +69,6 @@ const BudgetTracking = () => {
     setTotalSpent(
       sampleBudgets?.reduce((sum, budget) => sum + budget?.spent, 0)
     );
-    const storedAuth = localStorage.getItem("isAuthenticated");
-    if (storedAuth !== "true") {
-      navigate("/login");
-    }
   }, [navigate]);
 
   const periodOptions = [

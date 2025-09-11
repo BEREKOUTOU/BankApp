@@ -78,11 +78,7 @@ const BillPayment = () => {
 
   useEffect(() => {
     setPayees(mockPayees);
-    const isAuthenticated = localStorage.getItem("isAuthenticated");
-    if (isAuthenticated !== "true") {
-      navigate("/login");
-    }
-  }, [navigate]);
+  }, []);
 
   const filteredPayees = payees?.filter(
     (payee) =>

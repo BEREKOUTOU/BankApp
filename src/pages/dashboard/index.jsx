@@ -18,18 +18,12 @@ const Dashboard = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Authentication check
-    const isAuthenticated = localStorage.getItem("isAuthenticated");
-    if (isAuthenticated !== "true") {
-      navigate("/login");
-    }
-
     const timer = setInterval(() => {
       setCurrentTime(new Date());
     }, 60000); // Update every minute
 
     return () => clearInterval(timer);
-  }, [navigate]);
+  }, []);
 
   const accounts = [
     {

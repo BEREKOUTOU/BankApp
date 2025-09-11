@@ -35,13 +35,7 @@ const TransactionHistory = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [showAnalytics, setShowAnalytics] = useState(false);
 
-  useEffect(() => {
-    // Authentication check
-    const isAuthenticated = localStorage.getItem("isAuthenticated");
-    if (isAuthenticated !== "true") {
-      navigate("/login");
-    }
-  }, [navigate]);
+  useEffect(() => {}, []);
   // Mock transaction data
   const mockTransactions = [
     {

@@ -74,10 +74,6 @@ const CardsManagement = () => {
 
     setCards(sampleCards);
     setSelectedCard(sampleCards?.[0]);
-    const storedAuth = localStorage.getItem("isAuthenticated");
-    if (storedAuth !== "true") {
-      navigate("/login");
-    }
   }, [navigate]);
 
   const formatCurrency = (amount) => {
