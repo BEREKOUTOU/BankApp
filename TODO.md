@@ -25,3 +25,17 @@
 
 - [x] Edit src/Routes.jsx to add basename="/BankApp/" to BrowserRouter
 - [ ] Verify the routing works correctly
+
+# TODO for Fixing GitHub Pages SPA 404 and Favicon Issues
+
+## Completed
+- [x] Create public/404.html with SPA redirect script for GitHub Pages
+- [x] Add URL handling script to index.html for client-side routing
+- [x] Update favicon href to absolute path /BankApp/favicon.ico
+
+## Next Steps
+- [x] Run `npm run build` to build the project
+- [x] Run `npm run deploy` to deploy to GitHub Pages
+- [ ] Test the site at https://berekoutou.github.io/BankApp/
+- [ ] Refresh on /dashboard to verify no 404
+- [ ] Check if favicon loads without CSP error
