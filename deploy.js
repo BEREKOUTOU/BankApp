@@ -32,7 +32,7 @@ console.log('Deploying to GitHub Pages...');
 try {
   execSync('npx gh-pages -d build', { stdio: 'inherit' });
   console.log('Deployment completed successfully.');
-  console.log('Your site should be available at: https://BEREKOUTOU.github.io/BankApp/');
+  console.log('Your site should be available at: https://BEREKOUTOU.github.io/BanckApp/');
 } catch (error) {
   console.error('Deployment failed:', error);
   process.exit(1);
