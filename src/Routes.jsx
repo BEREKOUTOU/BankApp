@@ -16,7 +16,7 @@ import ProfileSettings from "./pages/profile-settings";
 
 const Routes = () => {
   return (
-    <BrowserRouter basename="/BankApp">
+    <BrowserRouter basename="/BankApp/">
       <ErrorBoundary>
         <ScrollToTop />
         <RouterRoutes>
