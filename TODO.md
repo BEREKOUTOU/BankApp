@@ -39,3 +39,11 @@
 - [ ] Test the site at https://berekoutou.github.io/BankApp/
 - [ ] Refresh on /dashboard to verify no 404
 - [ ] Check if favicon loads without CSP error
+
+# TODO: Optimize Bundle Size for Deployment
+
+- [x] Update vite.config.mjs: Add manualChunks for vendor libraries and increase chunkSizeWarningLimit to 3000
+- [x] Update src/Routes.jsx: Implement React.lazy for dynamic imports of route components
+- [x] Run build command to verify chunk sizes are optimized
+- [x] Test deployment if needed
+- [ ] Verify bundle size is within acceptable limits for GitHub Pages deployment

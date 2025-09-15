@@ -10,7 +10,22 @@ export default defineConfig({
   // comment this out if that isn't relevant for your project
   build: {
     outDir: "build",
-    chunkSizeWarningLimit: 2000,
+    chunkSizeWarningLimit: 3000,
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            if (id.includes('react')) {
+              return 'vendor_react';
+            }
+            if (id.includes('redux')) {
+              return 'vendor_redux';
+            }
+            return 'vendor';
+          }
+        }
+      }
+    }
   },
   plugins: [tsconfigPaths(), react(), tagger()],
   server: {
