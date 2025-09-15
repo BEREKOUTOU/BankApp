@@ -184,8 +184,8 @@ const TransactionList = ({ accountId, filters, searchTerm }) => {
     return (
       <div className="space-y-4">
         {[...Array(5)]?.map((_, i) => (
-          <div key={i} className="bg-card border border-border rounded-lg p-4 animate-pulse">
-            <div className="flex items-center space-x-4">
+          <div key={i} className="bg-card border border-border rounded-lg p-2 animate-pulse">
+            <div className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-muted rounded-lg"></div>
               <div className="flex-1 space-y-2">
                 <div className="h-4 bg-muted rounded w-1/3"></div>
@@ -209,8 +209,8 @@ const TransactionList = ({ accountId, filters, searchTerm }) => {
         </div>
       ) : (
         transactions?.map((transaction) => (
-          <div key={transaction?.id} className="bg-card border border-border rounded-lg p-4 hover:shadow-elevation-2 transition-smooth">
-            <div className="flex items-center space-x-4">
+          <div key={transaction?.id} className="bg-card border border-border rounded-lg p-2 hover:shadow-elevation-2 transition-smooth">
+            <div className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-muted/50 rounded-lg flex items-center justify-center flex-shrink-0">
                 <Icon name={getCategoryIcon(transaction?.category)} size={18} className="text-muted-foreground" />
               </div>
