@@ -225,7 +225,7 @@ const TransactionList = ({ accountId, filters, searchTerm }) => {
                   </div>
                 </div>
                 
-                <div className="flex items-center justify-between text-sm">
+                <div className="flex items-center justify-between text-xs">
                   <div className="flex items-center space-x-2 text-muted-foreground">
                     <span>{formatDate(transaction?.date)}</span>
                     <span>•</span>
