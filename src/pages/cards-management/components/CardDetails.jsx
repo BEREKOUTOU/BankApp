@@ -92,7 +92,7 @@ const CardDetails = ({
         <div className="flex justify-center mt-4 space-x-2">
           <Button
             variant="outline"
-            size="sm"
+            size="xs"
             onClick={() => setShowFullNumber(!showFullNumber)}
             iconName={showFullNumber ? "EyeOff" : "Eye"}
             iconPosition="left"
@@ -102,7 +102,7 @@ const CardDetails = ({
           
           <Button
             variant="outline"
-            size="sm"
+            size="xs"
             onClick={() => setShowCVV(!showCVV)}
             iconName={showCVV ? "EyeOff" : "Eye"}
             iconPosition="left"
@@ -112,7 +112,7 @@ const CardDetails = ({
           
           <Button
             variant="outline"
-            size="sm"
+            size="xs"
             onClick={() => copyToClipboard(card?.fullNumber)}
             iconName="Copy"
             iconPosition="left"
