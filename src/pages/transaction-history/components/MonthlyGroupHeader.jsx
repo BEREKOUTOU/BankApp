@@ -51,7 +51,7 @@ const MonthlyGroupHeader = ({
           </div>
 
           <div className="text-right">
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-4 hidden lg:flex">
               {/* Income */}
               <div className="text-right">
                 <div className="text-xs text-muted-foreground">Revenus</div>
