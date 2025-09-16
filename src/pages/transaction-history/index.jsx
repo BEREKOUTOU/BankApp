@@ -524,7 +524,7 @@ const TransactionHistory = () => {
                         </div>
                       </div>
                     ) : groupedTransactions?.length > 0 ? (
-                      <div className="space-y-6 mb-6">
+                      <div className="space-y-6 mb-18">
                         {groupedTransactions?.map((group) => {
                           const monthKey = `${group?.year}-${group?.month}`;
                           const isCollapsed = collapsedMonths?.has(monthKey);
