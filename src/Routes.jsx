@@ -20,7 +20,7 @@ const Routes = () => {
     <BrowserRouter basename="/BankApp/">
       <ErrorBoundary>
         <ScrollToTop />
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div className="flex items-center justify-center min-h-screen">Loading...</div>}>
           <RouterRoutes>
             {/* Public routes */}
             <Route path="/" element={<Login />} />
