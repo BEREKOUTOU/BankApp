@@ -186,9 +186,9 @@ const TransferMoney = () => {
         )}
 
         {/* Main Content */}
-        <div className="max-w-4xl mx-auto px-4 lg:px-8 py-8">
+        <div className="max-w-4xl mx-auto px-2 lg:px-2 py-2">
           <div className="bg-card border border-border rounded-lg shadow-elevation-1">
-            <div className="p-6 lg:p-8">{renderStepContent()}</div>
+            <div className="p-2 lg:p-2">{renderStepContent()}</div>
           </div>
         </div>
 
