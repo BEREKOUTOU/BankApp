@@ -524,7 +524,7 @@ const TransactionHistory = () => {
                         </div>
                       </div>
                     ) : groupedTransactions?.length > 0 ? (
-                      <div className="space-y-6">
+                      <div className="space-y-6 mb-6">
                         {groupedTransactions?.map((group) => {
                           const monthKey = `${group?.year}-${group?.month}`;
                           const isCollapsed = collapsedMonths?.has(monthKey);
@@ -541,7 +541,7 @@ const TransactionHistory = () => {
                                 onToggle={() => toggleMonthCollapse(monthKey)}
                               />
                               {!isCollapsed && (
-                                <div className="space-y-3 mt-4">
+                                <div className="space-y-3 mt-4 text-xs">
                                   {group?.transactions?.map((transaction) => (
                                     <TransactionCard
                                       key={transaction?.id}
