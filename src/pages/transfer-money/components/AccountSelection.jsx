@@ -126,7 +126,7 @@ const AccountSelection = ({ selectedAccount, onAccountSelect, onNext }) => {
                   </div>
                 </div>
                 
-                <div className="flex items-center justify-between text-sm">
+                <div className="flex items-center justify-between text-xs">
                   <div className="flex items-center space-x-2 text-muted-foreground">
                     <span>{getAccountTypeLabel(account?.type)}</span>
                     <span>•</span>
